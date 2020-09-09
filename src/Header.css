@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  top: 57px;
+  padding: 0 80px;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.header__center {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 210px;
+  /* background-color: blue; */
+}
+
+.header__center-first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.header__center-first-row > p {
+  padding-left: 15px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.header__center-first-row > p:not(:last-child) {
+  padding-right: 15px;
+}
+
+.header__center-second-row {
+  background-color: #fff;
+  max-width: 850px;
+  border: 1px solid #dddddd;
+  border-radius: 32px;
+  color: #222222;
+  height: 66px;
+  cursor: pointer;
+}
+
+.header__form {
+  display: flex;
+}
+
+.header__form > form {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 32px;
+}
+
+.header__form-where,
+.header__form-checkin,
+.header__form-checkout {
+  border-right: 1px solid #dddddd;
+}
+
+.header__form-checkin,
+.header__form-checkout {
+  padding: 14px !important;
+}
+
+.header__form-guests {
+  padding: 14px !important;
+}
+
+.header__form > form > label {
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  padding-bottom: 2px !important;
+}
+
+.header__form > form > input {
+  border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.header__form > form > input:focus {
+  outline: none;
+}
+
+.header__form-search {
+  padding: 10px;
+}
+
+.header__form-search > button {
+  background-color: #ff385c;
+  border: none;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+/* .header__center > input {
+  border: none;
+  padding: 10px;
+  outline: none;
+} */
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-bottom: 110px;
+  /* background-color: blueviolet; */
+}
