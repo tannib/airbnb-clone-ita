@@ -49,3 +49,31 @@
   font-weight: 14px;
   max-width: 300px;
 }
+
+@media (max-width: 900px) {
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    width: 100%;
+  }
+
+  .banner__info > h5 {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .banner__info > h5 {
+    max-width: 70%;
+  }
+}

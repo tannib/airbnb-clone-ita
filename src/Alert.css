@@ -11,5 +11,12 @@
   font-weight: 600;
   cursor: pointer;
   text-decoration: underline;
-  letter-spacing: -.25px;
+  letter-spacing: -0.25px;
+}
+
+@media (max-width: 500px) {
+  .alert > p {
+    padding: 10px;
+    font-size: 11px;
+  }
 }
