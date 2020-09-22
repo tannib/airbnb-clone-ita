@@ -64,3 +64,32 @@
 .searchResult__price > p {
   text-align: right;
 }
+
+@media (max-width: 650px) {
+  .searchResult {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .searchResult > img {
+    height: 100px;
+    width: 200px;
+  }
+
+  .searchResult__heart {
+    top: 15px;
+    right: 5px;
+  }
+
+  .searchResult__infoTop {
+    width: 95%;
+  }
+  .searchResult__infoBottom {
+    margin-top: 30px;
+  }
+
+  .searchResult__price {
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+  }
+}

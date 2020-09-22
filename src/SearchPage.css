@@ -16,3 +16,11 @@
   text-transform: inherit;
   margin: 5px;
 }
+
+@media (max-width: 900px) {
+  .searchPage__info > button {
+    font-size: 12px;
+    padding: 2px 7px;
+    margin: 3px;
+  }
+}
